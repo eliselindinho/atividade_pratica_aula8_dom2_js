@@ -1,5 +1,5 @@
-let exibirBodyFilhos = document.body.children;
-console.log(exibirBodyFilhos.length);
+let exibirBodyFilhos = document.body.childElementCount;
+console.log(exibirBodyFilhos);
 
 function verificaElementos() {
   if (exibirBodyFilhos > 5) {
